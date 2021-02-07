@@ -10,7 +10,7 @@ If you are a Clone Hero streamer and you have 2 different scenes; one for gamepl
 
 * Windows 10 64 bits (If you want a Linux or OSX version please create an issue or run this on development mode).
 * OBS Studio v26 or above
-* `obs-websocket-plugin` installed. You can download it [here](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
+* `obs-websocket-plugin` installed. You can download it [here](https://github.com/Palakis/obs-websocket/releases)
 * `settings.ini` file configured.
 * Export current song feature enabled in Clone Hero options 
 
