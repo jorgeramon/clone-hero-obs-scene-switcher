@@ -17,6 +17,7 @@ If you are a Clone Hero streamer and you have 2 different scenes; one for gamepl
 ### Download
 
 * Go to [releases](https://github.com/jorgeramon/clone-hero-obs-scene-switcher/releases) page and download the latest zip file.
+* Unzip on any location of your system, configure the `settings.ini` file and run the `.exe` file.
 
 ## Development
 
