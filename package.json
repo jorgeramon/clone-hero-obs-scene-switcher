@@ -1,0 +1,25 @@
+{
+  "name": "clone-hero-obs-scene-switcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "pkg": {
+    "targets": [
+      "node14-win-x64"
+    ]
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "multi-ini": "^2.1.2",
+    "obs-websocket-js": "^4.0.2",
+    "rxjs": "^6.6.3",
+    "winston": "^3.3.3"
+  }
+}
