@@ -14,6 +14,10 @@ If you are a Clone Hero streamer and you have 2 different scenes; one for gamepl
 * `settings.ini` file configured.
 * Export current song feature enabled in Clone Hero options 
 
+### Download
+
+* Go to [releases](https://github.com/jorgeramon/clone-hero-obs-scene-switcher/releases) page and download the latest zip file.
+
 ## Development
 
 ### Requirements
@@ -24,4 +28,4 @@ If you are a Clone Hero streamer and you have 2 different scenes; one for gamepl
 
 ### Usage
 
-Run `npm start` command and it will connect to OBS automatically.
+Run `npm install` and `npm start` commands on terminal. Console messages will indicate if the program connected to OBS successfully. Don't forget to configure `settings.ini` file properly.
