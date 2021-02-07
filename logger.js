@@ -2,7 +2,7 @@ const winston = require("winston");
 const { File } = require("winston/lib/winston/transports");
 
 const today = new Date();
-const filename = `./${today.getFullYear()}${today.getMonth()}${today.getDate()}.log.txt`;
+const filename = `./log_${today.getFullYear()}${today.getMonth()}${today.getDate()}.txt`;
 
 const customFormat = winston.format.printf(({ level, message, timestamp }) => {
   return `${timestamp} [${level}] - ${message}`;

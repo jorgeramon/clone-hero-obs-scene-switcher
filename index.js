@@ -4,6 +4,7 @@ logger.info(
 );
 
 const { SCENE_MENU, SCENE_GAMEPLAY, CLONE_HERO_FOLDER } = require("./config");
+const { pressAnyKeyAndExit } = require("./std-in");
 
 const fs = require("fs");
 const OBSWebSocket = require("obs-websocket-js");
@@ -43,7 +44,7 @@ async function connect() {
     logger.error(
       `File currentsong.txt doesn\'t exist. Are you sure that ${CLONE_HERO_FOLDER} contains the file?`
     );
-    process.exit(1);
+    await pressAnyKeyAndExit();
   }
 
   logger.info("Trying to connect to OBS...");
@@ -55,7 +56,7 @@ async function connect() {
     logger.error(
       "Couldn't connect to OBS. Are you sure that obs-websocket-plugin is installed?"
     );
-    process.exit(1);
+    await pressAnyKeyAndExit();
   }
 }
 

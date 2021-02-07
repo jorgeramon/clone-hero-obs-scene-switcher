@@ -1,4 +1,5 @@
 const logger = require("./logger");
+const { pressAnyKeyAndExit } = require("./std-in");
 const ini = require("multi-ini");
 
 logger.info("Reading setttings.ini file...");
@@ -13,7 +14,7 @@ function loadConfig() {
     };
   } catch (e) {
     logger.error("Cannot find settings.init file or it has an invalid format");
-    process.exit(1);
+    pressAnyKeyAndExit();
   }
 }
 
